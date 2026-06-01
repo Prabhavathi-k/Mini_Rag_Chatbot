@@ -1,5 +1,9 @@
 # Mini RAG Chatbot
 
+## Open in Google Colab
+
+[Open Notebook in Colab](https://colab.research.google.com/github/Prabhavathi-k/Mini_Rag_Chatbot/blob/main/Mini_Rag_Chatbot.ipynb)
+
 ## Project Overview
 
 This project implements a simple Retrieval-Augmented Generation (RAG) chatbot capable of answering questions from a PDF document.
@@ -11,21 +15,21 @@ The chatbot reads a PDF, extracts text, splits it into chunks, generates embeddi
 ## Architecture
 
 PDF Document
-↓
+->
 Text Extraction (PyPDF)
-↓
+->
 Text Chunking
-↓
+->
 Embeddings Generation
-↓
+->
 FAISS Vector Database
-↓
+->
 Semantic Search
-↓
+->
 Context Retrieval
-↓
+->
 Gemini LLM
-↓
+->
 Answer Generation
 
 ---
